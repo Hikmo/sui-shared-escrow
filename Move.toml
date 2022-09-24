@@ -1,0 +1,10 @@
+[package]
+name="Shared Escrow Tutorial"
+version="0.0.1"
+
+[dependencies]
+Sui = { local = "../../sui/crates/sui-framework/" }
+MoveStdlib = { local = "../../sui/crates/sui-framework/deps/move-stdlib/"}
+
+[addresses]
+tutorial="0x0"

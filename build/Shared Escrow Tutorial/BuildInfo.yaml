@@ -1,0 +1,21 @@
+---
+compiled_package_info:
+  package_name: Shared Escrow Tutorial
+  address_alias_instantiation:
+    std: "0000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000002"
+    tutorial: "0000000000000000000000000000000000000000"
+  source_digest: 446855B24D08BC54558B8A36BB10F1B1620E3F70148AE0139313156A5CE8B8AD
+  build_flags:
+    dev_mode: true
+    test_mode: true
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+dependencies:
+  - MoveStdlib
+  - Sui
